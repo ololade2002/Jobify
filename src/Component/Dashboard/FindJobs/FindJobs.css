@@ -1,0 +1,219 @@
+.find {
+    padding: 0rem 0rem 3rem 0rem;
+}
+.find-body {
+    padding: 1rem 3rem;
+    background: none;
+    position: relative;
+    z-index: 2;
+}
+.find-body>form {
+    display: flex;
+   margin-top: 1.5rem;
+   flex-wrap: wrap;
+   gap: 1rem;
+    justify-content: space-between;
+}
+.find-body>form>input {
+    width: 36%;
+    padding: 0.9rem 1rem;
+    border-radius: 7px;
+    border: 2px solid rgb(229 231 235);
+}
+.find-body>form>input::placeholder {
+    color: #000;
+    opacity: .8;
+}
+.s-btn {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background-color: #00756a;
+    border-radius: 7px;
+    color: white;
+}
+.s-btn>svg {
+    font-size: 18px;
+    color: white;
+}
+.f-btn>svg {
+    font-size: 18px;
+    color: black;
+}
+.f-btn {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 0.5rem;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 17px;
+   
+    outline: none;
+    border: 2px solid rgb(229 231 235);
+}
+
+.find-cards {
+    display: flex;
+    margin-top: 2.5rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    width: 100%;
+    position: relative;
+}
+.find-preview {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   width: 29%;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem 1rem;
+  
+}
+.find1 {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+.find1>img {
+    width: 3rem;
+}
+.find-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+}
+.find-text>h3 {
+    font-weight: 500;
+    font-size: 16px;
+}
+.find-text>p {
+  
+   font-weight: 400;
+   color: rgb(55 65 81);
+   font-size: 15px;
+}
+.find2 {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: -1rem;
+padding-bottom: 1rem;
+}
+.find2>h3 {
+    font-weight: 500;
+    font-size: 17px; 
+}
+.find2>p {
+    display: flex;
+    align-items: stretch;
+    gap: 0.4rem;
+    font-size: 15px;
+}
+.find2>p>span>svg {
+   width: 1.3rem;
+}
+.findbtn {
+    width: fit-content;
+ border: none;
+ outline: none;
+ background-color: #00756a;
+
+ color: white;
+ font-size: 16px;
+ padding: 0.5rem 1rem;
+ border-radius: 5px;
+float: right;
+margin-top: -1rem;
+
+}
+.find3 {
+    padding-bottom: 1.5rem;
+}
+.find3>p {
+font-size: 15px;
+color: rgb(55 65 81);
+}
+
+@media screen and (max-width:1326px) {
+   .find-preview {
+    width: 28%;
+   }
+}
+
+@media screen and (max-width:1140px) {
+    .find-preview {
+     width: 27%;
+    }
+    .findbtn {
+        margin-left: 69%;
+    }
+ }
+
+ @media screen and (max-width:1120px) {
+.find2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0rem;
+}
+ }
+
+ @media screen and (max-width:1120px) {
+    .findbtn {
+        margin-left: 66%;
+    }
+ }
+
+ @media screen and (max-width:992px) {
+.find-body {
+    padding: 0rem 1.5rem;
+}
+ }
+ 
+ @media screen and (max-width:905px) {
+  
+    .find-preview {
+        width: 43%;
+    }
+    .find-body>form {
+        justify-content: flex-start;
+    }
+     }
+
+
+ @media screen and (max-width:750px) {
+     .find-preview {
+            width: 40%;
+        }
+         }
+
+ @media screen and (max-width:700px) {
+    .find-body>form>input {
+        width: 98%;
+    }     
+    .f-btn {
+        width: 45%;
+    }
+    .s-btn {
+        width: 45%;
+    }
+     }
+
+@media screen and (max-width:545px) {
+            .find-preview {
+                width: 98%;
+            }
+            .find-cards {
+                gap: 1.5rem;
+            }
+             }        

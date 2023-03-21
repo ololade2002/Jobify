@@ -1,0 +1,203 @@
+
+.dashboard {
+    padding: 1rem 3rem;
+background-color: white;
+}
+.dashboard>h2 {
+    font-weight: 500;
+    color: #000;
+    display: flex;
+    font-size: 22px;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.dashboard>h2>img {
+    width: 4rem;
+    margin-left: -.7rem;
+}
+.dashboard-cards {
+    display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+    flex-wrap: wrap;
+}
+.dashboard-preview {
+background-color: #00756a;
+
+color: white;
+display: flex;
+flex-direction: column;
+padding: 0.7rem 1rem;
+border-radius: 7px;
+}
+.dashboard-preview:nth-of-type(1) {
+    width: 21%;
+    
+}
+.dashboard-preview:nth-of-type(2) {
+    width: 21%;
+}
+.dashboard-preview:nth-of-type(3) {
+    width: 21%;
+}
+.dashboard-preview:nth-of-type(4) {
+    width: 21%;
+}
+.dashboard-preview>h3 {
+    font-weight: 500;
+    font-size: 19px;
+}
+.dashboard-preview>h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.dashboard-preview>p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.applied {
+    padding-top: 4rem;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.3rem;
+   
+}
+.app-preview>button {
+  
+    padding: 0.4rem 1rem;
+font-size: 17px;
+font-weight: 500;
+outline: none;
+border: none;
+}
+
+.app-active>button {
+    background-color: #00756a;
+    color: white !important;
+    font-weight: 400;
+    padding: 0.4rem 1rem;
+    font-size: 17px;
+    outline: none;
+    border: none;
+}
+
+ .load {
+    padding-top: 2rem;
+   font-size: 17px;
+}
+
+@media screen and (max-width:1195px) {
+    .dashboard-preview:nth-of-type(1) {
+        width: 20%;
+    }
+    .dashboard-preview:nth-of-type(2) {
+        width: 20%;
+    }
+    .dashboard-preview:nth-of-type(3) {
+        width: 20%;
+    }
+    .dashboard-preview:nth-of-type(4) {
+        width: 20%;
+    }
+}
+@media screen and (max-width:992px) {
+    .dashboard {
+        padding: 1rem 1.5rem;
+    }
+}
+@media screen and (max-width:927px) {
+    .dashboard-preview:nth-of-type(1) {
+        width: 19%;
+    }
+    .dashboard-preview:nth-of-type(2) {
+        width: 19%;
+    }
+    .dashboard-preview:nth-of-type(3) {
+        width: 19%;
+    }
+    .dashboard-preview:nth-of-type(4) {
+        width: 19%;
+    }
+}
+@media screen and (max-width:781px) {
+    .dashboard-cards {
+       
+      gap: 2rem;
+    }
+    .dashboard-preview:nth-of-type(1) {
+        width: 26%;
+    }
+    .dashboard-preview:nth-of-type(2) {
+        width: 26%;
+    }
+    .dashboard-preview:nth-of-type(3) {
+        width: 26%;
+    }
+    .dashboard-preview:nth-of-type(4) {
+        width: 26%;
+    }
+}
+@media screen and (max-width:775px) {
+  
+    .dashboard-preview:nth-of-type(1) {
+        width: 25%;
+    }
+    .dashboard-preview:nth-of-type(2) {
+        width: 25%;
+    }
+    .dashboard-preview:nth-of-type(3) {
+        width: 25%;
+    }
+    .dashboard-preview:nth-of-type(4) {
+        width: 25%;
+    }
+}
+@media screen and (max-width:688px) {
+  
+    .dashboard-preview:nth-of-type(1) {
+        width: 41%;
+    }
+    .dashboard-preview:nth-of-type(2) {
+        width: 41%;
+    }
+    .dashboard-preview:nth-of-type(3) {
+        width: 41%;
+    }
+    .dashboard-preview:nth-of-type(4) {
+        width: 41%;
+    }
+}
+@media screen and (max-width:581px) {
+    .dashboard-cards {
+        gap: 1rem;
+      }
+    .dashboard-preview:nth-of-type(1) {
+        width: 98%;
+    }
+    .dashboard-preview:nth-of-type(2) {
+        width: 98%;
+    }
+    .dashboard-preview:nth-of-type(3) {
+        width: 98%;
+    }
+    .dashboard-preview:nth-of-type(4) {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width:664px) {
+   .applied {
+    gap: .7rem;
+   }
+}
+@media screen and (max-width:355px) {
+   .dashboard>h2 {
+
+    font-size: 19px;
+    align-items: center;
+   }
+   .dashboard>h2>img {
+    width: 3rem;
+    height: 3rem;
+   }
+ }

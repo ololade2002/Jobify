@@ -1,0 +1,12 @@
+
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+   
+}
+.react-switch-bg {
+    background-color: #00756a !important;
+    opacity: .8 !important;
+}

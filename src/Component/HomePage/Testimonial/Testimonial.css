@@ -1,0 +1,221 @@
+
+.testimonial {
+    padding: 5rem 3rem 4rem 3rem;
+   margin-bottom: 3rem;
+  overflow-x: hidden;
+
+}
+
+.text-t {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.text-t>h2 {
+    font-size: 40px;
+    width: 40%;
+}
+.text-t>p {
+    font-size: 20px;
+    width: 30%;
+   
+}
+
+.testimonial-body {
+  width: 100%;
+  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.testimonial-body1 {
+  width: 28%;
+  border-radius: 7px;
+   background-color: white;
+   padding: 0.5rem 1rem;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.testimonial-body2 {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width: 28%;
+    border-radius: 7px;
+}
+.testimonial-body3 {
+    width: 28%;
+    border-radius: 7px;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.testimonial-body4 {
+    width: 28%;
+    border-radius: 7px;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.testimonial-body5 {
+    width: 28%;
+    border-radius: 7px;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.testimonial-body6 {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width: 28%;
+    border-radius: 7px;
+}
+.tb1 {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.subheading>h2 {
+    font-weight: 500;
+    font-size: 20px;
+}
+.subheading>p {
+
+color: gray;
+}
+.tb1>img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+.tb2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.tb2>h3 {
+    font-weight: 500;
+}
+.rate>svg {
+  color: gold;
+ font-size: 1.5rem;
+}
+.tb3 {
+    padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width:1095px) {
+    .testimonial-body1 {
+        width: 27%;
+    }
+    .testimonial-body2 {
+        width: 27%;
+    }
+    .testimonial-body3 {
+        width: 27%;
+    }
+    .testimonial-body4 {
+        width: 27%;
+    }
+    .testimonial-body5 {
+        width: 27%;
+    }
+    .testimonial-body6 {
+        width: 27%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .text-t {
+        flex-direction: column;
+    }
+    .text-t>h2 {
+        font-size: 33px;
+        text-align: center;
+        width: 100%;
+    }
+    .text-t>p {
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        margin-top: .6rem;
+       padding-bottom: 2rem;
+    }
+    .testimonial {
+        padding: 5rem 1.5rem;
+     
+    }
+    .testimonial-body1 {
+        width: 40%;
+    }
+    .testimonial-body2 {
+        width: 40%;
+    }
+    .testimonial-body3 {
+        width: 40%;
+    }
+    .testimonial-body4 {
+        width: 40%;
+    }
+    .testimonial-body5 {
+        width: 40%;
+    }
+    .testimonial-body6 {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .text-t {
+        display: flex;
+        flex-direction: column;
+    }
+    .text-t>h2 {
+        font-size: 33px;
+        text-align: center;
+        width: 100%;
+    }
+    .text-t>p {
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+       padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:642px) {
+    .testimonial-body {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .testimonial-body1 {
+        width: 95%;
+    }
+    .testimonial-body2 {
+        width: 95%;
+    }
+    .testimonial-body3 {
+        width:95%;
+    }
+    .testimonial-body4 {
+        width: 95%;
+    }
+    .testimonial-body5 {
+        width: 95%;
+    }
+    .testimonial-body6 {
+        width: 95%;
+    }
+}
+
+
+
+@media screen and (max-width:320px) {
+    .text-t>h2  {
+        font-size: 28px;
+    }
+}
