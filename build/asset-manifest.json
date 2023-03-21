@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.33306fe0.css",
+    "main.js": "/static/js/main.dbb2918e.js",
+    "static/js/787.6e8002d8.chunk.js": "/static/js/787.6e8002d8.chunk.js",
+    "static/media/woman.png": "/static/media/woman.1865853ea278f16aa9e6.png",
+    "static/media/register1.png": "/static/media/register1.73663a7dbd96763edb24.png",
+    "static/media/login1.png": "/static/media/login1.589d756be3f678be3b38.png",
+    "static/media/login2.png": "/static/media/login2.757aaadfde155a0a0c1d.png",
+    "static/media/largeimage.png": "/static/media/largeimage.0bbf34a6f4a7c50ee641.png",
+    "static/media/register2.png": "/static/media/register2.735395daa8870bc6052e.png",
+    "static/media/smallimage6.png": "/static/media/smallimage6.1332d75be6e135f8379a.png",
+    "static/media/smallimage2.png": "/static/media/smallimage2.4ca31b47d4aae31ea7e4.png",
+    "static/media/smallimage5.png": "/static/media/smallimage5.b42160aa994c788dc184.png",
+    "static/media/smallimage1.png": "/static/media/smallimage1.1552f07ec0b22f699e3d.png",
+    "static/media/smallimage3.png": "/static/media/smallimage3.7498ef66817376049775.png",
+    "static/media/flutterwave.png": "/static/media/flutterwave.4af0e0bc37979f7cb74d.png",
+    "static/media/wave-removebg-preview.png": "/static/media/wave-removebg-preview.33193b41c2f8f07fd3fb.png",
+    "static/media/smallimage4.png": "/static/media/smallimage4.39427c74e37f927770cb.png",
+    "static/media/palmpay.png": "/static/media/palmpay.1fd06ed358756bf1e799.png",
+    "static/media/toptal-removebg-preview.png": "/static/media/toptal-removebg-preview.7ac36d95f9373c43aaf2.png",
+    "static/media/instagram.svg": "/static/media/instagram.6731e31c35e503667b200c410df65c86.svg",
+    "static/media/dribble.svg": "/static/media/dribble.dbbafe0b9cd1f9eb950c8e8d43cb0f3e.svg",
+    "static/media/google.svg": "/static/media/google.2947a87cc63009d69011d129c6bec5c0.svg",
+    "static/media/behance.svg": "/static/media/behance.60f7c62473f088cdc471962a4428a6de.svg",
+    "static/media/airbnb.svg": "/static/media/airbnb.177ce68517681450547a98ebab177214.svg",
+    "index.html": "/index.html",
+    "static/media/facebook.svg": "/static/media/facebook.d7c0b4e9ce034fb8d8f719d7fbc5fd90.svg",
+    "static/media/microsoft.svg": "/static/media/microsoft.9c8d7f68920b1039d752b4102ea65245.svg",
+    "main.33306fe0.css.map": "/static/css/main.33306fe0.css.map",
+    "main.dbb2918e.js.map": "/static/js/main.dbb2918e.js.map",
+    "787.6e8002d8.chunk.js.map": "/static/js/787.6e8002d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33306fe0.css",
+    "static/js/main.dbb2918e.js"
+  ]
+}
